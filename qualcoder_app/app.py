@@ -565,8 +565,100 @@ with st.sidebar:
         **LinkedIn:** [tayyabcheema777](https://www.linkedin.com/in/tayyabcheema777/)
         """)
     
-    st.markdown("---")
+    # -----------------------
+    # Citation download dropdown
+    # -----------------------
+    with st.expander("📚 Citation", expanded=False):
+        st.write("Download Citation:")
+        # Citation data
+        author = "Muhammad Tayyab Ilyas"
+        title = "Computer-Assisted Iterative Thematic Analysis (CAITA) technique"
+        year = "2025"
+        url = "https://github.com/MuhammadTayyabIlyas/qualcoder_app/tree/main/qualcoder_app"
+        publisher = "GitHub"
+
+        # 1. RIS
+        ris_content = f"""TY  - COMP
+TI  - {title}
+AU  - {author}
+PY  - {year}
+UR  - {url}
+PB  - {publisher}
+ER  -
+"""
+
+        # 2. BibTeX
+        bib_content = f"""@software{{ilyas2025caita,
+  author       = {{{author}}},
+  title        = {{{title}}},
+  year         = {{{year}}},
+  url          = {{{url}}},
+  publisher    = {{{publisher}}}
+}}
+"""
+
+        # 3. EndNote XML
+        endnote_xml_content = f"""<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <record>
+    <contributors>
+      <authors>{author}</authors>
+    </contributors>
+    <titles>
+      <title>{title}</title>
+    </titles>
+    <dates>
+      <year>{year}</year>
+    </dates>
+    <urls>
+      <related-urls>{url}</related-urls>
+    </urls>
+    <publisher>{publisher}</publisher>
+  </record>
+</xml>
+"""
+
+        # 4. CSL JSON
+        csl_json_content = f"""{{
+  "type": "software",
+  "title": "{title}",
+  "author": [{{"family": "Ilyas", "given": "Muhammad Tayyab"}}],
+  "issued": {{"date-parts": [[{year}]]}},
+  "URL": "{url}",
+  "publisher": "{publisher}"
+}}
+"""
+
+        # 5. MODS XML
+        mods_content = f"""<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3">
+  <titleInfo>
+    <title>{title}</title>
+  </titleInfo>
+  <name type="personal">
+    <namePart>{author}</namePart>
+    <role>
+      <roleTerm type="text">author</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <publisher>{publisher}</publisher>
+    <dateIssued>{year}</dateIssued>
+  </originInfo>
+  <location>
+    <url>{url}</url>
+  </location>
+</mods>
+"""
+
+        # Download buttons
+        st.download_button("RIS", ris_content, file_name="CAITA_citation.ris", mime="text/plain")
+        st.download_button("BibTeX", bib_content, file_name="CAITA_citation.bib", mime="text/plain")
+        st.download_button("EndNote XML", endnote_xml_content, file_name="CAITA_citation_endnote.xml", mime="text/xml")
+        st.download_button("CSL JSON", csl_json_content, file_name="CAITA_citation.json", mime="application/json")
+        st.download_button("MODS XML", mods_content, file_name="CAITA_citation_mods.xml", mime="text/xml")
     
+    st.markdown("---")
     st.markdown("### 📌 About QualCoder")
     st.info(
         "**QualCoder Pro** performs 3-stage qualitative coding:\n\n"
@@ -583,7 +675,6 @@ with st.sidebar:
         "• [Support](https://www.linkedin.com/in/tayyabcheema777/)\n"
         "• [GitHub](https://github.com/MuhammadTayyabIlyas)"
     )
-    
     st.markdown("---")
     st.caption("CAITA Computer-Assisted Iterative Thematic Analysis")
     st.caption("QualCoder Pro v1.0 | © 2024 Muhammad Tayyab Ilyas")
