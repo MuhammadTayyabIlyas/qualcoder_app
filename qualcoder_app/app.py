@@ -579,8 +579,8 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### 🔗 Resources")
     st.markdown(
-        "• [Documentation](https://example.com/docs)\n"
-        "• [Support](https://example.com/support)\n"
+        "• [Documentation](https://github.com/MuhammadTayyabIlyas/qualcoder_app/blob/main/README.md)\n"
+        "• [Support](https://www.linkedin.com/in/tayyabcheema777/)\n"
         "• [GitHub](https://github.com/MuhammadTayyabIlyas)"
     )
     
