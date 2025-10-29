@@ -132,7 +132,7 @@ with col_header:
     <div class="main-header">
         <h1 style="margin: 0; font-size: 2.5rem;">🔬 QualCoder Pro</h1>
         <p style="margin: 0.5rem 0 0 0; font-size: 1.1rem; opacity: 0.95;">
-            Advanced 3-Stage Qualitative Coding Analysis Platform
+            Using <strong>CAITA<strong>(Computer-Assisted Iterative Thematic Analysis) Technique
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -585,4 +585,5 @@ with st.sidebar:
     )
     
     st.markdown("---")
+    st.caption("CAITA Computer-Assisted Iterative Thematic Analysis")
     st.caption("QualCoder Pro v1.0 | © 2024 Muhammad Tayyab Ilyas")
