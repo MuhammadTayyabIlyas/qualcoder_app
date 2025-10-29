@@ -150,3 +150,4 @@ Just powerful, transparent, qualitative analysis that respects both your experti
 *Developed by [Muhammad Tayyab Ilyas](https://www.linkedin.com/in/tayyabcheema777/), PhD Student, UAB*  
 *Making qualitative research accessible to everyone*
 
+*<a href="https://doi.org/10.5281/zenodo.17474908"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17474908.svg" alt="DOI"></a>*
