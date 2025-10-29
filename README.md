@@ -41,7 +41,9 @@ What if there were another way? What if powerful qualitative analysis could be t
 
 ### Your Journey in Four Clear Steps
 
-<img src="https://drive.google.com/file/d/1B3KWKSS8U19Vx_AHL2cHMgNBr2jfJNy9/view?usp=sharing" alt="CAITA Data Input Interface" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<img src="https://drive.google.com/uc?export=view&id=1B3KWKSS8U19Vx_AHL2cHMgNBr2jfJNy9" 
+     alt="CAITA Data Input Interface"
+     style="width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
 **Step 1: Upload Your Data**
 
