@@ -55,7 +55,12 @@ Notice the codebook options? Beginners can use the default structure, while expe
 
 ## Page 3: Configure With Purpose, Not Complexity
 
-<img src="https://drive.google.com/file/d/1Oz8lE4dFnU1D1AbQe2BITzgZ761TRzUv/view?usp=sharing" alt="CAITA Configuration Interface" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<img 
+    src="https://drive.google.com/uc?export=view&id=1B3KWKSS8U19Vx_AHL2cHMgNBr2jfJNy9"
+    alt="CAITA Data Input Interface"
+    style="width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"
+>
+
 
 **Step 2: Set Your Research Direction**
 
@@ -71,7 +76,12 @@ And notice: you can add manual keywords. Because you know your field's language 
 
 ## Page 4: Analysis That Keeps You in Control
 
-<img src="https://drive.google.com/file/d/1PVP1QIQYZ7zzWAubWOrrkqVPLAj1Laht/view?usp=sharing" alt="CAITA Analysis Interface" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<img 
+    src="https://drive.google.com/uc?export=view&id=1PVP1QIQYZ7zzWAubWOrrkqVPLAj1Laht"
+    alt="CAITA Analysis Interface"
+    style="width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
+>
+
 
 **Step 3: Conduct Transparent Analysis**
 
@@ -85,7 +95,12 @@ Click "Start Analysis" and watch what happens: CAITA shows every step, lets you 
 
 ## Page 5: Results That Tell Your Story
 
-<img src="https://drive.google.com/file/d/1Z38vdC47jZIo-qbNOtTke2d_vmw4j32Q/view?usp=sharing" alt="CAITA Results Interface" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<img 
+    src="https://drive.google.com/uc?export=view&id=1Z38vdC47jZIo-qbNOtTke2d_vmw4j32Q"
+    alt="CAITA Results Interface"
+    style="width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
+>
+
 
 **Step 4: Share Your Discoveries**
 
