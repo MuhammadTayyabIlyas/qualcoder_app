@@ -58,8 +58,7 @@ Notice the codebook options? Beginners can use the default structure, while expe
 <img 
     src="https://drive.google.com/uc?export=view&id=1B3KWKSS8U19Vx_AHL2cHMgNBr2jfJNy9"
     alt="CAITA Data Input Interface"
-    style="width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"
->
+    style="width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
 
 
 **Step 2: Set Your Research Direction**
@@ -75,13 +74,10 @@ And notice: you can add manual keywords. Because you know your field's language 
 ---
 
 ## Page 4: Analysis That Keeps You in Control
-
 <img 
     src="https://drive.google.com/uc?export=view&id=1PVP1QIQYZ7zzWAubWOrrkqVPLAj1Laht"
     alt="CAITA Analysis Interface"
-    style="width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
->
-
+    style="width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
 **Step 3: Conduct Transparent Analysis**
 
@@ -94,14 +90,8 @@ Click "Start Analysis" and watch what happens: CAITA shows every step, lets you 
 ---
 
 ## Page 5: Results That Tell Your Story
-
-<img 
-    src="https://drive.google.com/uc?export=view&id=1Z38vdC47jZIo-qbNOtTke2d_vmw4j32Q"
-    alt="CAITA Results Interface"
-    style="width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
->
-
-
+<img src="https://drive.google.com/uc?export=view&id=1Z38vdC47jZIo-qbNOtTke2d_vmw4j32Q"
+     style="width:100%; border-radius:10px; box-shadow:0 4px 6px rgba(0,0,0,0.1);">
 **Step 4: Share Your Discoveries**
 
 Currently showing "No results available yet," this screen embodies CAITA's philosophy: results emerge from YOUR analysis, not algorithmic generation.
@@ -155,5 +145,8 @@ Just powerful, transparent, qualitative analysis that respects both your experti
 
 ---
 
-*Developed by Muhammad Tayyab Ilyas, PhD Student, UAB*
+
+
+*Developed by [Muhammad Tayyab Ilyas](https://www.linkedin.com/in/tayyabcheema777/), PhD Student, UAB*  
 *Making qualitative research accessible to everyone*
+
