@@ -123,12 +123,24 @@ def extract_participant_responses(
             is_participant = False
             current = []
         else:
-            # no explicit marker: use heuristics
+            # no explicit marker: use content-based heuristics
             if is_participant is None:
-                if len(line) > 40 or re.search(r'\b(I|we|my|our|us)\b', line, re.I):
+                # More robust heuristics based on line content rather than alternation
+                has_personal_pronouns = bool(re.search(r'\b(I|we|my|our|us|me)\b', line, re.I))
+                has_question_words = bool(re.search(r'\b(what|how|why|when|where|who|could you|would you|can you)\b', line, re.I))
+                is_long_statement = len(line) > 60
+                
+                # Participant responses typically have personal pronouns and are longer statements
+                # Interviewer questions typically have question words and are shorter
+                if has_personal_pronouns and not has_question_words:
+                    is_participant = True
+                elif has_question_words or len(line) < 20:
+                    is_participant = False
+                elif is_long_statement:
                     is_participant = True
                 else:
-                    is_participant = False if (len(participant_responses) % 2 == 0) else True
+                    # Default to False (safer for data quality - excludes ambiguous lines)
+                    is_participant = False
             if is_participant:
                 current.append(line)
             else:
