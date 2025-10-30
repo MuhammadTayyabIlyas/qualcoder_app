@@ -11,6 +11,7 @@ import tempfile
 import shutil
 import json
 import io
+import logging
 from typing import List
 import pandas as pd
 try:
@@ -22,6 +23,9 @@ from qualcoder_core import (
     load_codebook, make_output_folder, process_single_transcript,
     DEFAULT_CODEBOOK, suggest_keywords_from_texts, extract_text_from_file
 )
+
+# Configure logging
+logger = logging.getLogger(__name__)
 
 # ===============================
 # Page Configuration
@@ -132,7 +136,7 @@ with col_header:
     <div class="main-header">
         <h1 style="margin: 0; font-size: 2.5rem;">🔬 QualCoder Pro</h1>
         <p style="margin: 0.5rem 0 0 0; font-size: 1.1rem; opacity: 0.95;">
-            Using <strong>CAITA<strong>(Computer-Assisted Iterative Thematic Analysis) Technique
+            Using <strong>CAITA</strong> (Computer-Assisted Iterative Thematic Analysis) Technique
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -441,6 +445,11 @@ with tab4:
                 file_name=f"{out_folder.name}.zip",
                 use_container_width=True
             )
+            # Clean up the temporary ZIP file after reading to prevent disk space accumulation
+            try:
+                zip_path.unlink()
+            except Exception as e:
+                logger.warning(f"Failed to clean up ZIP file {zip_path}: {e}")
         
         st.markdown("---")
         
